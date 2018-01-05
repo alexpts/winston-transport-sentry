@@ -5,6 +5,10 @@ winston-transport-sentry
 ### Compitable
 Winston@3+
 
+
+### Install
+`npm i --save winston@3 winston-transport-sentry`
+
 Sentry transport for winston@3 logger for node js
 -------------------------------------------------
 Follow this sample configuration to use:
