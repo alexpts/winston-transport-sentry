@@ -1,0 +1,31 @@
+{
+  "name": "winston-transport-sentry",
+  "version": "1.0.0",
+  "description": "winston`s transport for Sentry (raven)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpts/winston-transport-sentry.git"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "sentry",
+    "raven",
+    "logger"
+  ],
+  "author": "alexpts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexpts/winston-transport-sentry/issues"
+  },
+  "homepage": "https://github.com/alexpts/winston-transport-sentry#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "raven": "^2.3.0",
+    "winston-transport": "^3.0.1"
+  }
+}
