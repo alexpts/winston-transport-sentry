@@ -2,7 +2,7 @@ winston-transport-sentry
 ========================
 
 
-### Compitable
+### Compatible
 Winston@3+
 
 
