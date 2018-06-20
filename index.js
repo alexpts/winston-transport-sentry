@@ -86,7 +86,7 @@ class SentryWinstonTransport extends Transport {
         if (this.silent) return done(null, true);
         let meta = prepareMeta(info);
 
-        let method = info.message === 'error' ? 'captureException' : 'captureMessage';
+        let method = info.message instanceof Error ? 'captureException' : 'captureMessage';
 
         try {
             let eventId = await this.raven[method](info.message, meta);
